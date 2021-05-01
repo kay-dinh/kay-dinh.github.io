@@ -1,6 +1,8 @@
 
 body{
   background-color:rgb(230, 204, 178);
+  font-size: 14px;
+  color: #656566;
   }
 table, th, td {
   border: 1px solid black;
