@@ -1,3 +1,6 @@
+{
+  box-sizing: border-box;
+}
 
 bodyONE {
   background-color:rgb(230, 204, 178);
@@ -8,3 +11,48 @@ h1 {
   p {
     color: rgb(127, 85, 57);
   }
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  
+}
+
+
+.column.side {
+  width: 25%;
+}
+
+
+.column.middle {
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
